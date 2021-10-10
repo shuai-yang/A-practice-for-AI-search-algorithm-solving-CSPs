@@ -5,14 +5,12 @@
 Grocery Bagging is a real-world application of <b>Constraint Satisfaction Problem (CSP)</b>. The goal is to determine a way to bag all groceries that satisfies multiple constraints: (1) what items can be bagged with what(i.e., rolls can only be bagged with bread; meat cannot be bagged with vegetable) (2) bag capacity (3) the number of bags available. We use '+' and '-' to present a positive constrain or a negative consstrain on the item. The '+' indicates that it is OK to bag the item with anything in the list, but NOTHING else and the '-' indicates that it is NOT OK to bag the item with anything in the list, but you can bag the item with anything else.<br/>
 
 These constraints will be defined in an input file in order. Below is an example of an input file:<br/>
+
 ![](images/Capture2.JPG)<br>
 <br>
 If the program can find a solution, it prints "success", followed by what items are bagged in each non-empty bag. If the program cannot find a solution, it just prints "failure". An example of such output would be (taken from the above problem):<br>
-success<br>
-bread rolls<br>
-cookie<br>
-meat<br>
-beans<br>
+
+![](images/Capture3.JPG)<br>
 
 ## Design and Data Structures
 
