@@ -26,9 +26,9 @@ public class Solution {
 			Item item = new Item(n++);
 			item.name= lineScanner.next();
 			item.size= lineScanner.nextInt();
-			if(item.size > bagMaxSize) {System.out.println("line64 failure");System.exit(0);}
+			if(item.size > bagMaxSize) {System.out.println("failure");System.exit(0);}
 			totalSizeTaken += item.size;
-			if(totalSizeTaken > bagMaxSize*numBags) {System.out.println("line66 failure");System.exit(0);}
+			if(totalSizeTaken > bagMaxSize*numBags) {System.out.println("failure");System.exit(0);}
 			minSize = Integer.min(minSize, item.size);
 			if(lineScanner.hasNextLine()) 
 				item.constrainDescription= lineScanner.nextLine();
