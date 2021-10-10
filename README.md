@@ -7,7 +7,7 @@ Grocery Bagging is a real-world application of <b>Constraint Satisfaction Proble
 These constraints will be defined in an input file in order. Below is an example of an input file:<br/>
 ![](images/input.JPG)<br>
 <br>
-If the program can find a solution, it prints "success", followed by what items are bagged in each non-empty bag. If the program cannot find a solution, it just prints "failure". Below <br>
+If the program can find a solution, it prints "success", followed by what items are bagged in each non-empty bag. If the program cannot find a solution, it just prints "failure". An example of such output would be (taken from the above problem):<br>
 
 ## Design and Data Structures
 
