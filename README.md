@@ -1,5 +1,4 @@
 # Bagging Grocery
-This is a practice for AI  - Search Algorithm. Grocery Bagging is a Constraint Satisfaction Problem (CSP). The goal is to determine a way to bag all groceries that satisfies multiple constraints. I used Backtracking search algorithm (Depth-First-Search) along with arc-consistency, Most Restrictive Value (MRV) and Least Constraining Value (LCV) heuristics for prioritizing and pruning to increase tree traversal performance in large problem sets. This project was developed in Java and executed by Makefile and Shell script.
 ![](images/Capture.JPG)
 
 ## Problem Description and Requirements
